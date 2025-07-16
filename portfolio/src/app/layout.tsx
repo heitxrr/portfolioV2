@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-gray-50 text-gray-950 relative h-[5000px]`}>
+        className={`${geistSans.variable} ${geistMono.variable} bg-gray-50 text-gray-950 relative h-[5000px] pt-28 sm:pt-36`}>
         <div className = "bg-[#d0cfff] absolute top-[-6rem] -z-10 right-[11 rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]" ></div>
         <div className = "bg-[#ffd7d4] absolute top-[-6rem] -z-10 left-[-35 rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left [-33rem] lg:left[-28 rem] xl:left-[-15rem] 2x1:left-[-5rem]" ></div>
         
