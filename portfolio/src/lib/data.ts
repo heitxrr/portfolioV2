@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/corpcomment.png";
 import rmtdevImg from "../public/rmtdev.png";
@@ -12,73 +11,73 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "Sobre",
+    hash: "#sobre",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Projetos",
+    hash: "#projetos",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Habilidades",
+    hash: "#habilidades",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Experiencia",
+    hash: "#experiencia",
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: "Contato",
+    hash: "#contato",
   },
 ] as const;
 
-export const experiencesData = [
+export const experienciaData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "SIGSTECH Soluções em Tecnologia",
+    location: "São Paulo, SP",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Trabalho atualmente como analista de suporte na SIGSTECH, onde faz parte do Grupo Sifra.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2025 - ",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "RP Network ME",
+    location: "São Paulo, SP",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Atuei como auxiliar de serviços gerais de TI como freelancer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - 2024",
+  },
+  {
+    title: "FIAP",
+    location: "São Paulo, SP",
+    description:
+      "Estou cursando Análise e Desenvolvimento de Sistemas na FIAP.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - ",
   },
 ] as const;
 
-export const projectsData = [
+export const projetosData = [
   {
-    title: "CorpComment",
+    title: "MotoFlow",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Aplicativo mobile inteligente para gestão de pátios de motocicletas, desenvolvido com React Native + Expo.",
+    tags: ["React", "Expo GO", "CSS", "TypeScript" ],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Prevent+",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Prevent+ é uma plataforma educativa para prevenção de desastres. O aplicativo oferece alertas, dicas de segurança, previsão do tempo, kit de emergência e locais seguros para informar e proteger a comunidade.",
+    tags: ["React", "TypeScript", "CSS", "Expo GO"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Eficientiza",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Eficientiza é um blog dedicado a promover práticas sustentáveis e a adoção de energia limpa, com foco no setor da construção civil.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
@@ -87,6 +86,9 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "Python",
+  "Java",
+  "C#",
   "JavaScript",
   "TypeScript",
   "React",
@@ -94,14 +96,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
