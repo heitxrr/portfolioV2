@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import FotoP from '../../public/heitor1.png'
+import FotoP from '../../../public/heitor1.png'
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs';
