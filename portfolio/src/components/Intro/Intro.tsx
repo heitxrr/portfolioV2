@@ -9,6 +9,7 @@ import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 
 
+
 export default function Intro() {
   return (
     <section>
